@@ -2,23 +2,11 @@ import React,{useState,useEffect} from 'react';
 import './style.css';
 
 
-
-
-
 function App() {
  
-
-
   const [Form1,setForm1]=useState('4-2-3-1');
   const [Form2,setForm2]=useState('4-4-2');
-  
-  useEffect(()=>{
-
-
-  },[])
-  
-
-  
+ 
      
 const formation = {
     f4231: [
@@ -250,8 +238,6 @@ const formation = {
             {Hplayerscircle}
     
             </span>
-    
-    
     
             <span id="Aplayerscircle">
               
